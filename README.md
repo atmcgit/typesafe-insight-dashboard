@@ -1,6 +1,10 @@
 # TypeSafe Insight Dashboard
 
-TypeSafe Insight Dashboard, sosyal medya gönderilerini yalnızca anahtar kelime eşleşmesine göre değil, anahtar kelimenin **hangi anlamda ve bağlamda kullanıldığına** göre değerlendiren bir semantik analiz arayüzüdür.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+TypeSafe Insight Dashboard, sosyal medya gönderilerini yalnızca anahtar kelime eşleşmesine göre değil, anahtar kelimenin **hangi anlamda ve bağlamda kullanıldığına** göre değerlendiren, açık kaynak bir semantik analiz arayüzüdür.
+
+Kendi [TypeSafe](https://typesafe.ai) API anahtarınızla birkaç dakikada kurup çalıştırabilirsiniz — kod değişikliği veya "Mavi" örneğine bağlı kalma zorunluluğu yok, herhangi bir marka, ürün veya kişi adı için kullanılabilir.
 
 Projenin temel amacı, bir anahtar kelimeyle bulunan sosyal medya gönderilerinin gerçekten hedeflenen konuyla ilgili olup olmadığını JEV AI kullanarak doğrulamaktır. Böylece aynı yazılışa sahip fakat farklı anlamlarda kullanılan kelimeler birbirinden ayrılabilir.
 
@@ -202,3 +206,14 @@ Vercel projesinde **Settings → Environment Variables** altında:
 `.env` dosyasındaki `VITE_TYPESAFE_API_KEY` yalnızca yerel geliştirme
 sunucusu içindir; Vercel'e **kesinlikle commit edilmemeli** ve Vercel'in kendi
 ortam değişkeni panelinden ayrıca `TYPESAFE_API_KEY` girilmelidir.
+
+## Katkıda bulunma
+
+Pull request'ler ve issue'lar memnuniyetle karşılanır. Fikir: yeni bir sonuç
+sınıfı, farklı bir LLM sağlayıcısı desteği, çoklu dil desteği ya da UI
+iyileştirmeleri. Büyük bir değişiklik öncesi bir issue açıp tartışmak
+tekrar eden işi önler.
+
+## Lisans
+
+[MIT](LICENSE) — dilediğiniz gibi kullanın, değiştirin, dağıtın.
